@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="hulool-rifad — مركز تصفح الموجهات والأوامر والمهارات وسير العمل وأتمتة وكلاء الذكاء الاصطناعي." />
+  <title>hulool-rifad | مركز وكلاء الذكاء الاصطناعي</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="hulool-rifad">
+      <span class="brand-mark">ح</span>
+      <span><b>hulool</b> <em>rifad</em><small>Agent Knowledge Hub</small></span>
+    </a>
+    <nav class="topnav" aria-label="التنقل الرئيسي">
+      <a href="#catalog">المكتبة</a><a href="#architecture">البنية</a><a href="https://github.com/alsutanamer-ye/hulool-rifad" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">AGENT OPERATING SYSTEM / 0.1</p>
+        <h1>حوّل نية المستخدم<br /><span>إلى فعل قابل للتنفيذ.</span></h1>
+        <p class="lead">مركز عملي لتصفح الموجّهات، الأوامر، المهارات، الـ prompts، سير العمل والأتمتة — كل ما يحتاجه وكيل الذكاء الاصطناعي في مكان واحد.</p>
+        <div class="hero-actions"><a class="button primary" href="#catalog">تصفح المكتبة <span>←</span></a><a class="button ghost" href="https://github.com/alsutanamer-ye/hulool-rifad" target="_blank" rel="noreferrer">افتح المستودع ↗</a></div>
+      </div>
+      <div class="hero-console" aria-label="مثال على تدفق الوكيل">
+        <div class="console-head"><span class="dots"><i></i><i></i><i></i></span><span>agent-flow.ts</span><span class="live">● LIVE</span></div>
+        <pre><code><span class="muted">01</span> <span class="violet">router</span>.dispatch(<span class="green">"لخص التقرير"</span>)
+<span class="muted">02</span>   <span class="arrow">↓</span> <span class="key">route</span>: <span class="orange">summarizer</span>
+<span class="muted">03</span>   <span class="key">skill</span>: <span class="green">summarize</span>
+<span class="muted">04</span>   <span class="key">workflow</span>: <span class="green">review-and-publish</span>
+<span class="muted">05</span>   <span class="key">automation</span>: <span class="orange">every 6h</span>
+<span class="muted">06</span> <span class="violet">→ result</span> <span class="green">"تمت المعالجة ✓"</span></code></pre>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="إحصائيات المكتبة"><div><strong>06</strong><span>مكونات أساسية</span></div><div><strong>05</strong><span>أنواع معرفة</span></div><div><strong>∞</strong><span>تدفقات قابلة للتركيب</span></div><div><strong>TS</strong><span>Type-safe by design</span></div></section>
+
+    <section class="catalog" id="catalog">
+      <div class="section-heading"><div><p class="eyebrow">THE CATALOG</p><h2>مكتبة الوكيل</h2></div><p>ابحث، صفِّ، وافتح أي مكوّن لفهم دوره في نظام الوكيل.</p></div>
+      <div class="toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="ابحث في الأوامر والمهارات والموجهات..." /></label><div id="filters" class="filters" role="tablist" aria-label="تصفية المكتبة"></div></div>
+      <div id="cards" class="cards"></div><p id="empty" class="empty" hidden>لم نجد مكوّنًا يطابق بحثك.</p>
+    </section>
+
+    <section class="architecture" id="architecture"><div class="section-heading"><div><p class="eyebrow">HOW IT FITS</p><h2>من الإدخال إلى الإنجاز</h2></div><p>طبقات واضحة تجعل سلوك الوكيل قابلًا للفهم، الاختبار، وإعادة الاستخدام.</p></div><div class="flow"><div class="flow-node"><b>01</b><strong>Input</strong><span>رسالة أو حدث</span></div><i>←</i><div class="flow-node accent"><b>02</b><strong>Router</strong><span>تحديد النية</span></div><i>←</i><div class="flow-node"><b>03</b><strong>Skill / Workflow</strong><span>تنفيذ متسلسل</span></div><i>←</i><div class="flow-node"><b>04</b><strong>Automation</strong><span>تشغيل مستمر</span></div></div></section>
+  </main>
+  <footer><span>hulool-rifad / agent knowledge hub</span><span>مفتوح للتطوير عبر GitHub</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
