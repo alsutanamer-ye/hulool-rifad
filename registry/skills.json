@@ -1,0 +1,88 @@
+[
+  {
+    "id": "SKILL-RESEARCH-001",
+    "type": "skill",
+    "name": "Evidence-First Research",
+    "description": "A repeatable method for separating evidence, inference, and open questions.",
+    "category": "Research",
+    "tags": [
+      "evidence",
+      "research-method"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/skills/evidence-first-research.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "SKILL-UX-001",
+    "type": "skill",
+    "name": "Accessible Flow Design",
+    "description": "Design user flows with semantic structure, keyboard paths, and inclusive language.",
+    "category": "Design",
+    "tags": [
+      "ux",
+      "accessibility",
+      "inclusive-design"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/skills/accessible-flow-design.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "SKILL-EVAL-001",
+    "type": "skill",
+    "name": "Deterministic Prompt Evaluation",
+    "description": "Score outputs with explicit criteria before considering model-based judgment.",
+    "category": "AI Agents",
+    "tags": [
+      "evaluation",
+      "quality",
+      "testing"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/skills/deterministic-prompt-evaluation.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  }
+]

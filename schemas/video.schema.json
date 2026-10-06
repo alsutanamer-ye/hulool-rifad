@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hulool-rifad.org/schema/video.json",
+  "title": "Video asset",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "type",
+    "name",
+    "description",
+    "category",
+    "tags",
+    "version",
+    "status",
+    "license",
+    "author",
+    "source",
+    "path",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]+-[A-Z0-9-]+$"
+    },
+    "type": {
+      "const": "video"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10
+    },
+    "category": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "deprecated"
+      ]
+    },
+    "license": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "variable": {
+      "type": "object",
+      "required": [
+        "name",
+        "type",
+        "required",
+        "description"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "text",
+            "long-text",
+            "number",
+            "select",
+            "multi-select",
+            "boolean",
+            "date",
+            "url",
+            "file",
+            "json"
+          ]
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "description": {
+          "type": "string"
+        },
+        "default": {},
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "validation": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

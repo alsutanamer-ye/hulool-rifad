@@ -1,0 +1,31 @@
+[
+  {
+    "id": "IMAGE-RIFAD-001",
+    "type": "image",
+    "name": "Rifad Gradient Shapes",
+    "description": "Abstract geometric shapes for open-source AI product surfaces.",
+    "category": "Brand Assets",
+    "tags": [
+      "brand",
+      "abstract",
+      "background"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/images/rifad-gradient-shapes.json",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  }
+]

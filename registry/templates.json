@@ -1,0 +1,209 @@
+[
+  {
+    "id": "TEMPLATE-BRIEF-001",
+    "type": "template",
+    "name": "Decision Brief Builder",
+    "description": "A variable-driven template for concise, evidence-aware decision briefs.",
+    "category": "Strategy",
+    "tags": [
+      "brief",
+      "decision-making",
+      "reusable"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/templates/decision-brief-builder.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ],
+    "variables": [
+      {
+        "name": "ROLE",
+        "type": "text",
+        "required": true,
+        "description": "The role the assistant should take",
+        "default": "Senior product strategist"
+      },
+      {
+        "name": "COMPANY",
+        "type": "text",
+        "required": true,
+        "description": "Organization or project context"
+      },
+      {
+        "name": "OBJECTIVE",
+        "type": "long-text",
+        "required": true,
+        "description": "What should be achieved?"
+      },
+      {
+        "name": "TARGET_AUDIENCE",
+        "type": "text",
+        "required": true,
+        "description": "Who will use or read the output?"
+      },
+      {
+        "name": "OUTPUT_FORMAT",
+        "type": "select",
+        "required": true,
+        "description": "Preferred format",
+        "options": [
+          "Brief",
+          "Table",
+          "Checklist",
+          "JSON"
+        ],
+        "default": "Brief"
+      }
+    ]
+  },
+  {
+    "id": "TEMPLATE-CONTENT-001",
+    "type": "template",
+    "name": "Campaign Content Matrix",
+    "description": "Generate a channel matrix with messages, formats, owners, and success signals.",
+    "category": "Content",
+    "tags": [
+      "campaign",
+      "matrix",
+      "content"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/templates/campaign-content-matrix.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ],
+    "variables": [
+      {
+        "name": "ROLE",
+        "type": "text",
+        "required": true,
+        "description": "The role the assistant should take",
+        "default": "Senior product strategist"
+      },
+      {
+        "name": "COMPANY",
+        "type": "text",
+        "required": true,
+        "description": "Organization or project context"
+      },
+      {
+        "name": "OBJECTIVE",
+        "type": "long-text",
+        "required": true,
+        "description": "What should be achieved?"
+      },
+      {
+        "name": "TARGET_AUDIENCE",
+        "type": "text",
+        "required": true,
+        "description": "Who will use or read the output?"
+      },
+      {
+        "name": "OUTPUT_FORMAT",
+        "type": "select",
+        "required": true,
+        "description": "Preferred format",
+        "options": [
+          "Brief",
+          "Table",
+          "Checklist",
+          "JSON"
+        ],
+        "default": "Brief"
+      }
+    ]
+  },
+  {
+    "id": "TEMPLATE-AGENT-001",
+    "type": "template",
+    "name": "Role Agent Charter",
+    "description": "Define a safe, measurable agent charter without over-granting permissions.",
+    "category": "AI Agents",
+    "tags": [
+      "agent",
+      "governance",
+      "charter"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/templates/role-agent-charter.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ],
+    "variables": [
+      {
+        "name": "ROLE",
+        "type": "text",
+        "required": true,
+        "description": "The role the assistant should take",
+        "default": "Senior product strategist"
+      },
+      {
+        "name": "COMPANY",
+        "type": "text",
+        "required": true,
+        "description": "Organization or project context"
+      },
+      {
+        "name": "OBJECTIVE",
+        "type": "long-text",
+        "required": true,
+        "description": "What should be achieved?"
+      },
+      {
+        "name": "TARGET_AUDIENCE",
+        "type": "text",
+        "required": true,
+        "description": "Who will use or read the output?"
+      },
+      {
+        "name": "OUTPUT_FORMAT",
+        "type": "select",
+        "required": true,
+        "description": "Preferred format",
+        "options": [
+          "Brief",
+          "Table",
+          "Checklist",
+          "JSON"
+        ],
+        "default": "Brief"
+      }
+    ]
+  }
+]

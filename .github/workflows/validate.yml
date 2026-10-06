@@ -1,0 +1,17 @@
+name: Validate Rifad
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Validate registries and source paths
+        run: python3 scripts/validate.py
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Build smoke check
+        run: test -f website/index.html && test -f website/js/app.js && test -f website/css/styles.css

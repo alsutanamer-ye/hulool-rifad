@@ -1,0 +1,86 @@
+[
+  {
+    "id": "AGENT-STRATEGY-001",
+    "type": "agent",
+    "name": "Strategy Synthesizer",
+    "description": "A careful strategy partner that turns evidence into options, trade-offs, and next actions.",
+    "category": "Strategy",
+    "tags": [
+      "strategy",
+      "decision-support"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/agents/strategy-synthesizer.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "AGENT-CONTENT-001",
+    "type": "agent",
+    "name": "Content Systems Editor",
+    "description": "Maintains a coherent content system across channels, formats, and review stages.",
+    "category": "Content",
+    "tags": [
+      "content",
+      "editorial"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/agents/content-systems-editor.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "AGENT-QA-001",
+    "type": "agent",
+    "name": "Asset Quality Reviewer",
+    "description": "Checks reusable assets for clarity, testability, licensing, and schema compliance.",
+    "category": "AI Agents",
+    "tags": [
+      "quality-assurance",
+      "governance"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/agents/asset-quality-reviewer.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  }
+]

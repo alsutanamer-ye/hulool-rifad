@@ -1,0 +1,60 @@
+[
+  {
+    "id": "SOLUTION-LAUNCH-001",
+    "type": "solution",
+    "name": "Product Launch Kit",
+    "description": "A reusable launch system combining discovery, messaging, editorial planning, and QA.",
+    "category": "Business",
+    "tags": [
+      "launch",
+      "product",
+      "marketing"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/solutions/product-launch-kit.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "SOLUTION-SEO-001",
+    "type": "solution",
+    "name": "SEO Research Desk",
+    "description": "A practical research desk for topic mapping, evidence capture, and content briefs.",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "research",
+      "content"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/solutions/seo-research-desk.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  }
+]

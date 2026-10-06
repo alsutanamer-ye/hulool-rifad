@@ -1,0 +1,168 @@
+[
+  {
+    "id": "PROMPT-MARKET-001",
+    "type": "prompt",
+    "name": "Market Signal Brief",
+    "description": "Turn scattered market evidence into a decision-ready brief with explicit uncertainty.",
+    "category": "Research",
+    "tags": [
+      "market-research",
+      "strategy",
+      "synthesis"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/prompts/market-signal-brief.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ],
+    "variables": [
+      {
+        "name": "MARKET",
+        "type": "text",
+        "required": true,
+        "description": "Market or category to investigate"
+      },
+      {
+        "name": "TARGET_AUDIENCE",
+        "type": "text",
+        "required": true,
+        "description": "Decision makers who will use the brief"
+      },
+      {
+        "name": "CONSTRAINTS",
+        "type": "long-text",
+        "required": false,
+        "description": "Research boundaries",
+        "default": "Prefer evidence from the last 12 months."
+      }
+    ]
+  },
+  {
+    "id": "PROMPT-CONTENT-001",
+    "type": "prompt",
+    "name": "Editorial Content Sprint",
+    "description": "Plan a useful, channel-aware content sprint from a single business objective.",
+    "category": "Content",
+    "tags": [
+      "content",
+      "editorial",
+      "planning"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/prompts/editorial-content-sprint.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "PROMPT-PRODUCT-001",
+    "type": "prompt",
+    "name": "Product Discovery Interviewer",
+    "description": "Generate unbiased interview questions and a synthesis rubric for product discovery.",
+    "category": "Product Management",
+    "tags": [
+      "discovery",
+      "research",
+      "product"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/prompts/product-discovery-interviewer.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "PROMPT-SEO-001",
+    "type": "prompt",
+    "name": "SEO Topic Cluster Mapper",
+    "description": "Map a seed topic into an evidence-led content cluster with intent and internal links.",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "content-strategy",
+      "search"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/prompts/seo-topic-cluster-mapper.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "PROMPT-OPS-001",
+    "type": "prompt",
+    "name": "Operations Runbook Builder",
+    "description": "Convert a recurring process into an auditable runbook with owners and failure paths.",
+    "category": "Operations",
+    "tags": [
+      "operations",
+      "runbook",
+      "process"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/prompts/operations-runbook-builder.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "WORKFLOW-RESEARCH-001",
+    "type": "workflow",
+    "name": "Market Research Sprint",
+    "description": "A bounded research workflow from question framing to a cited decision brief.",
+    "category": "Research",
+    "tags": [
+      "research",
+      "workflow",
+      "strategy"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/workflows/market-research-sprint.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  },
+  {
+    "id": "WORKFLOW-CONTENT-001",
+    "type": "workflow",
+    "name": "Brief to Content Pack",
+    "description": "Turn a validated brief into a modular content pack with review checkpoints.",
+    "category": "Content",
+    "tags": [
+      "content",
+      "workflow",
+      "production"
+    ],
+    "version": "1.0.0",
+    "status": "active",
+    "license": "MIT",
+    "author": "Hulool Rifad Community",
+    "source": "Original Rifad sample asset",
+    "path": "library/workflows/brief-to-content-pack.md",
+    "created_at": "2026-10-06",
+    "updated_at": "2026-10-06",
+    "verified": true,
+    "rating": 4.8,
+    "tests": 100,
+    "compatibility": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "Local models"
+    ]
+  }
+]
