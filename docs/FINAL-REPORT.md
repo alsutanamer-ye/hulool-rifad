@@ -27,7 +27,7 @@ Run `python3 scripts/validate.py` and `python3 -m unittest discover -s tests -v`
 
 ## Deployment
 
-The repository is intended for GitHub Pages using the official artifact/deploy actions. The final verified URLs are recorded in the delivery response after the repository and Pages site are live.
+The repository includes the official artifact/deploy workflow and the validation workflow passed on GitHub. The first deployment attempt reached `actions/configure-pages`, but GitHub returned `403 Resource not accessible by integration` because the active GitHub token cannot create or enable the repository Pages site. The Pages site therefore remains pending account-level enablement; after enabling **Settings → Pages → Source: GitHub Actions**, rerun `Deploy Rifad to GitHub Pages`.
 
 ## Known limitations
 
