@@ -37,3 +37,17 @@ console.log(await router.dispatch('لخص هذا النص الطويل'));
 ## الحالة الحالية
 
 هذه نسخة MVP قابلة للتوسعة. المرحلة التالية المقترحة: adapters لمزوّدات النماذج (OpenAI-compatible/Anthropic/local)، persistence للـ state، event bus، observability، وملفات تعريف YAML للـ skills/workflows.
+
+## موقع التصفح عبر GitHub Pages
+
+يوجد موقع عربي ثابت داخل `docs/` لتصفح الموجهات، الأوامر، المسارات، المهارات، prompts، workflows والأتمتة، مع بحث وتصنيف متجاوب.
+
+الرابط المتوقع بعد تفعيل Pages:
+
+<https://alsutanamer-ye.github.io/hulool-rifad/>
+
+النشر مهيأ تلقائيًا عبر `.github/workflows/pages.yml`. للتفعيل لأول مرة من GitHub:
+
+1. افتح **Settings → Pages** في المستودع.
+2. اختر **Source: GitHub Actions**.
+3. أعد تشغيل workflow باسم **Deploy hulool-rifad site to GitHub Pages** أو ادفع commit جديدًا إلى `main`.
